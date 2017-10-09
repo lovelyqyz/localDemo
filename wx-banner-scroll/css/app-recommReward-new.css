@@ -1,0 +1,55 @@
+@charset="utf-8";
+.rewardWrap{font-size: 16px;}
+.rewardWrap .mainPart{margin:0 0.2rem;}
+.rewardWrap .toolBar a{display:block;text-align: center;}
+.rewardWrap .toolBar .inviteBtns{margin-top:0.28rem;}
+.rewardWrap .toolBar .inviteBtns a{margin-bottom: 0.28rem;width:100%;height:0.8rem;line-height: 0.8rem;color:#342320;background-color: #FFD616;border-radius: 6px;box-shadow: 0 0.12rem 4px #D93737;}
+.rewardWrap .toolBar .inviteBtns a:nth-child(2){background-color: white;}
+.rewardWrap .ruleBtnWrap .ruleBtn{margin:0.4rem 0 0 0;position:relative;color:white;text-decoration: underline;}
+
+.arrow-box{position:absolute;top:50%;left:68%;margin-top:-.06rem}
+.arrow-box .arrowWrap{width:.2rem;height:.12rem;position:absolute;left:0;top:0;z-index:2}
+.arrow-box .arrow1,.arrow-box .arrow2{width:0;height:0;display:block;position:absolute;left:0;top:0;z-index:5;overflow:hidden}
+.arrow-bottom .arrow1,.arrow-bottom .arrow2{border-bottom:.16rem transparent dashed;border-left:.16rem transparent dashed;border-right:.16rem transparent dashed}
+.arrow-bottom .arrow1{top:1px;border-top:.16rem #fff solid}
+.arrow-bottom .arrow2{border-top:.16rem #F83E3F solid}
+p.arrow-top .arrow1,p.arrow-top .arrow2{border-top:1px transparent dashed;border-left:.16rem transparent dashed;border-right:.16rem transparent dashed}
+p.arrow-top .arrow1{border-bottom:0.16rem white solid}
+p.arrow-top .arrow2{top:2px;border-bottom:0.16rem #F83E3F solid}
+.rewardWrap .ruleBtnWrap .ruleBtn:focus,.rewardWrap .ruleBtnWrap .ruleBtn:active{border:0;outline:none;-webkit-tap-highlight-color:rgba(0,0,0,0);}
+.ruleInstroWrap{display:none;margin-top: 0.28rem;position:relative;font-size: 13px;color:#7a2207;padding-bottom: 2.4rem;}
+.ruleInstroWrap .aPart{position:relative;margin:0 0.15rem;background-color: #FFF0D9;border-radius: 0 0 4px 4px;}
+.ruleInstroWrap .aPart:before{position:absolute;top:-0.14rem;left:-0.15rem;content:"";display:inline-block;width:6rem;height:0.28rem;background:url('../images/recommReward/rules-partHead.png') center center no-repeat;background-size:contain;}
+.ruleInstroWrap .aPart h3{padding:0.3rem 0 0.4rem 0;text-align: center;font-size: 18px;color:#951010;}
+.ruleInstroWrap .aPart h3 i{position:relative;display:inline-block;width:1.7rem;height:1px;border-bottom: 1px solid #951010;vertical-align: middle;}
+.ruleInstroWrap .aPart h3 i:first-child{margin-right: 0.2rem;text-align: right;}
+.ruleInstroWrap .aPart h3 i:last-child{margin-left: 0.2rem;text-align: left;}
+.ruleInstroWrap .aPart h3 i:first-child:after,.ruleInstroWrap .aPart h3 i:last-child:before{content:"";display:inline-block;width:4px;height:4px;border-radius: 50%;background-color:#951010;}
+.ruleInstroWrap .aPart:nth-child(1){margin-bottom: 0.34rem;padding:0 0.12rem 0.56rem 0.12rem;}
+.ruleInstroWrap .aPart .recommStep img{width:5.58rem;margin:0 auto;}
+.ruleInstroWrap .aPart .partDerail{padding:0 0.16rem;}
+.ruleInstroWrap .aPart .smallTitle{position:relative;margin:.3rem 0;color:#fff;font-size:16px;display:inline-block}
+.ruleInstroWrap .aPart .smallTitle:first-child{margin-top:0}
+.ruleInstroWrap .aPart .smallTitle:before{position:absolute;z-index:3;top:-5%;left:0;content:"";display:inline-block;height:110%;width:1px;border-left:2px solid #951010}
+.ruleInstroWrap .aPart .smallTitle span{position:relative;z-index:3;display:inline-block;padding:0 .38rem 0 .18rem;height:32px;line-height:32px}
+.flag,.flag:after{z-index:1}
+.flag{position:absolute;top:0;left:0;display:block;width:100%;height:100%;background:#EE6E19;color:#fff;font-size:11px;letter-spacing:.2em;text-align:center;text-transform:uppercase}
+.flag:after{content:"";position:absolute;right:0;top:0;width:0;height:0;border-right:10px solid #FFF0D9;border-top:16px solid transparent;border-bottom:16px solid transparent}
+.ruleInstroWrap .aPart dl{position:relative}
+.ruleInstroWrap .aPart dt{position:absolute;left:0;width:10px;}
+.ruleInstroWrap .aPart dd{margin-bottom: 0.16rem;padding-left: 14px;line-height: 20px;}
+.ruleInstroWrap .aPart dd a{color:#168dc8;}
+.ruleInstroWrap .aPart:nth-last-of-type(1){padding-bottom: 0.26rem;}
+.ruleInstroWrap .caseWrap{margin: 0.2rem 0;padding:0 14px 0.3rem 14px;background-color: #FAD08F;line-height: 20px;border-radius: 4px;}
+.ruleInstroWrap .caseWrap h4{padding:0.3rem 0;font-weight: normal;font-size:16px;color:#792207;}
+.ruleInstroWrap .ruleBttWrap{position:absolute;bottom:0;left:-0.2rem;display:inline-block;width:6.4rem;height:2.82rem;background:url('../images/recommReward/rules-partBott.png') center center no-repeat;background-size:contain;}
+
+/*分享奖励*/
+.shareDg .fullBlackShadow,.shareDg .shareFixedMain{position:fixed;top:0;left:0;width:100%;height:100%}
+.shareDg .fullBlackShadow{z-index:1;background-color:#000;filter:alpha(opacity=30);-moz-opacity:.3;-khtml-opacity:.3;opacity:.3}
+.shareDg .shareFixedMain{z-index:2}
+.shareDg .shareMainDg{padding-top:.34rem;position:absolute;left:0;bottom:0;width:100%;background-color:#F1F1F1;font-size:0}
+.shareDg .shareMainDg a{margin-bottom: 0.3rem;display:inline-block;width:25%;text-align: center;color:#444444;font-size: 13px;}
+.shareDg .shareMainDg img{margin:0 auto;display:block;width:1.14rem;}
+.shareDg .shareMainDg a label{display:block;margin-top:0.18rem;}
+.shareDg .shareMainDg .toolBar a{margin-bottom: 0;height:0.86rem;line-height: 0.86rem;text-align: center;font-size: 16px;color:#444444;width:100%;text-align: center;background-color: white;}

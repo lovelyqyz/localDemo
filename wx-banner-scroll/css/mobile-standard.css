@@ -1,0 +1,28 @@
+ul{margin:0;padding:0;list-style:none}
+.backHeader{width:100%;position:relative;height:40px;line-height:40px;background-color:#009FEE;color:#fff;font-size:17px;text-align:center}
+a.back{position:absolute;left:13px;top:0;z-index:2;display:inline-block;height:100%;width:38px}
+a.back:before{position:absolute;left:0;top:50%;margin-top:-7px;content:"";display:inline-block;width:9px;height:14px;background:url(../images/v2/icon-back.png) center center no-repeat;background-size:contain}
+
+.showNextLink a{display:block}
+.showNextLink a:after{content:"";position:absolute;right:.26rem;display:inline-block;width:.16rem;height:100%;background:url(../images/icon-next.png) center center no-repeat;background-size:contain}
+
+.fieldWrap{font-size:16px;background-color:#fff}
+.fieldWrap dl{padding:0 .26rem}
+.fieldWrap .addInsuredBtn,.fieldWrap dl{border-bottom:1px solid #DADADA}
+.fieldWrap .addInsuredBtn,.fieldWrap .addUsualConnetor,.fieldWrap dd,.fieldWrap dt{padding-right:.26rem;height:38px;line-height:38px}
+.fieldWrap dd,.fieldWrap dt{padding:4px 0;float:left;vertical-align:middle}
+.fieldWrap dt{width:26%}
+.fieldWrap dd{width:74%;position:relative}
+.fieldWrap input[type=text]{padding-left:5px;height:38px;line-height:38px;border:0;width:90%}
+.fieldWrap dl:last-of-type{border-bottom:0}
+.fieldWrap .insuredPersonWrap dl:last-of-type{border-bottom:1px solid #DADADA}
+.fieldWrap .addUsualConnetor{padding-left:1%;font-size:12px;border-top:1px solid #DADADA}
+.fieldWrap input[type=text]:focus{outline:0}
+
+.switchBtns{float:right;position:relative;top:50%;margin-top:-.22rem;display:inline-block;height:.44rem;width:.82rem;border-radius:.42rem;border:1px solid #CECECE;box-shadow:0 0 0 1px #FCFCFC;background-color:#FCFCFC;vertical-align:middle}
+.switchBtns label{position:absolute;top:0;left:0;width:.42rem;height:.42rem;-webkit-box-shadow:0 0 2px #fff;border-radius:100%;background-color:#fff;-webkit-transform:translate3d(0,0,0);display:inline-block;vertical-align:middle;border:1px solid #E5E5E5}
+span.isSwitchBtn label{-webkit-transform:translate3d(.4rem,0,0)}
+.switchBtns label.transFlag{-webkit-transition:.3s linear}
+span.isSwitchBtn{background-color:#009FEE;border:1px solid #009FEE;box-shadow:0 0 0 1px #009FEE}
+.selFlag{position:relative;padding-left:5px;width:100%;display:inline-block;color:#CFCFCF}
+.selFlag:after{position:absolute;right:5px;content:"";display:inline-block;width:.16rem;height:100%;background:url(../images/icon-next.png) center center no-repeat;background-size:contain;vertical-align:middle}

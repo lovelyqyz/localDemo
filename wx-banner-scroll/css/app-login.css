@@ -1,0 +1,54 @@
+@charset "UTF-8";.clearfix:after{content:".";display:block;height:0;visibility:hidden;clear:both}
+.clearfix{zoom:1}
+input[type=text],input[type=button]{-webkit-appearance:none}
+.headerWrap{position:relative;height:.78rem;line-height:.78rem;background-color:#009FEE;color:#fff;font-size:17px;text-align:center}
+.loginTopSplit{height:.2rem;background-color:#F1F1F1}
+.loginWrap{font-size:14px}
+.loginWrap .bannerImg{width:6.4rem;height:2.64rem;background:url(../images/bk-v2/img-login-banner.jpg) center center no-repeat;background-size:contain}
+.loginWrap ul{list-style:none;}
+.loginWrap ul.roleTitleUl {background-color:#fff;}
+.loginWrap ul.roleTitleUl li{height:.86rem;line-height:.86rem;float:left;font-size:16px;color:#353535;width:50%;text-align:center;border-bottom:1px solid #DADADA}
+.loginWayContainer{background-color:#fff}
+.loginWrap ul.roleTitleUl li.active{border-bottom:1px solid #5D9CEC}
+.enterpriseWrap{display:none}
+.loginWrap dl{margin:0 .26rem;padding:.38rem 0 .2rem 0;background-color:#fff;border-bottom:1px solid #DADADA}
+.loginWrap dd,.loginWrap dt{float:left}
+.loginWrap dt{width:16%;border-right: 1px solid #DADADA;box-sizing:border-box;-moz-box-sizing:border-box; -webkit-box-sizing:border-box;}
+.loginWrap dd{width:84%}
+.loginWrap dd p{height:.36rem;line-height:.36rem;border-bottom:1px solid #F2F1EF}
+.loginWrap dd p:last-child{border-bottom:0}
+.loginWrap dd p input{padding-left:5px;width:100%;height:100%;border:0;font-size:14px}
+.loginWrap dd p input:focus{border:0;outline:0}
+.loginWrap dd p.getValCodeLine input{width:60%}
+.loginWrap dd .getValCodeLine{position:relative;}
+.loginWrap dd .minuteLabel,.loginWrap dd p.getValCodeLine .validaImg,.loginWrap dd p.getValCodeLine input.getCodeBtn{
+  position:absolute;top:-0.12rem;right:0;
+  width:34%;height:.54rem;display:inline-block;
+  color:#BEBEBE;border-radius:4px}
+.loginWrap dd .minuteLabel,.loginWrap dd p.getValCodeLine input.getCodeBtn{border:1px solid #009FEE;background-color:#009FEE;color:#fff;font-size:15px}
+.loginWrap dd .minuteLabel{line-height:.54rem;text-align:center;color:#fff;background-color:#D3D3D3;border:1px solid #D3D3D3}
+.loginWrap dd .minuteLabel em{font-style:normal;color:#ff2400}
+.loginWrap dl dt span{padding-left:.3rem;display:block;}
+.loginWrap .userDl:nth-of-type(1) dt span{height:.34rem;width:.34rem;background:url(../images/bk-v2/icon-login-person.png) center center no-repeat;background-size:contain;}
+.loginWrap .userDl:nth-of-type(2) dt span{height:.38rem;width:.34rem;background:url(../images/bk-v2/icon-login-passwd.png) center center no-repeat;background-size:contain}
+.loginWrap .enterpriseContractDl dt span{height:36px;width:34px;background-position:0 -150px;background-size:cover}
+.loginWrap .addrDl dt span{margin-bottom:10px;height:30px;width:30px;background-position:0 -103px;background-size:cover}
+.loginWrap .addrDl dd p{padding-left:5px;line-height:50px;cursor:pointer}
+.loginWrap .agreeWrap{margin:20px auto 10px 0;font-size:12px;text-align:center}
+.loginWrap .agreeWrap input,.loginWrap .agreeWrap small{vertical-align:middle}
+.loginWrap .agreeWrap input{margin-right:10px}
+.loginWrap .agreeWrap small a{color:#5d9cec;text-decoration:underline}
+.loginWrap .registerBtn{width:100%;height:44px;font-size:20px;color:#fff;background-color:#009FEE;border:0;border-radius:6px}
+.loginWrap .toolbar{margin:.36rem .26rem}
+.loginWayContainer .messageLoginWrap{display:none}
+.loginWrap dd p.passwdWrap{border-bottom:none}
+.loginWrap .loginWayBar{margin:0 .26rem}
+.loginWrap .loginWayBar a{color:#009fee;text-decoration:underline}
+.loginWrap .loginWayBar span{float:right}
+
+
+.fullShadow{position:fixed;left:0;top:0;z-index:100;background:#000;filter:alpha(opacity=60);-moz-opacity:.6;-khtml-opacity:.6;opacity:.6;width:100%;height:100%}
+.popMessageDg .fixedMainContainer{position:fixed;left:0;top:0;z-index:101;width:100%;height:100%}
+.popMessageDg .mainDgWrap{position:absolute;z-index:102;width:90%;left:5%;/* top:2.6rem; */background-color:#FFF;border-radius:.1rem;font-size:13px;top:50%;-webkit-transform:translate(0,-50%);-ms-transform:translate(0,-50%);transform:translate(0,-50%);}
+.popMessageDg .mainDgWrap p{width:4.6rem;margin:.26rem auto .3rem auto;font-size:14px;line-height:24px}
+.popMessageDg .mainDgWrap .offerBtn a{display:inline-block;width:100%;height:.8rem;line-height:.8rem;color:#009fee;font-size:15px;border-top:1px solid #E5E5E5;text-align:center}

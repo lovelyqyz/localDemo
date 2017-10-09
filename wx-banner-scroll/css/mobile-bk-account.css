@@ -1,0 +1,211 @@
+@charset='UTF-8';
+.backHeader{position:relative;height:0.78rem;line-height:0.78rem;background-color:#009FEE;color:white;font-size: 17px;text-align: center;}
+.backHeader a.back{position:absolute;left:0.26rem;top:0;z-index:2;display:inline-block;height:100%;width:38px;}
+.backHeader a.back:before{
+	position:absolute;left:0;
+	top:50%;
+	margin-top:-0.14rem;
+	content:"";display:inline-block;width:0.18rem;height:0.28rem;
+    background:url('../images/bk-v2/icon-back.png') center center no-repeat;
+    background-size: contain;
+}
+.backHeader .editBtn{margin-right: 0.26rem;font-size: 15px;color:white;float:right;font-size: 16px;}
+ul{list-style: none;}
+.userBalanceWrap{font-size: 15px;}
+.userBalanceWrap .partNavWrap,.userBalanceWrap .bgWhite, .userBalanceWrap .balaceDetail,.recommedPart .gainNumsWrap, .recommedPart .recommUserList{background-color: white;}
+.userBalanceWrap .partNavWrap{}
+.userBalanceWrap .partNavWrap span{display:inline-block;width:50%;height:0.82rem;line-height: 0.82rem;text-align: center;border-bottom: 1px solid #DADADA;cursor:pointer;}
+.userBalanceWrap .partNavWrap span.currActive{border-bottom: 1px solid #00A0EC;}
+.userBalanceWrap .balancePart .moneyIcon{display:block;margin:0 auto;padding: 0.48rem 0 0.5rem 0;width:1.46rem;}
+.userBalanceWrap .balancePart p{text-align: center;}
+.userBalanceWrap .balancePart p.price{padding-bottom: 0.62rem;font-size: 31px;color:#353535;}
+.userBalanceWrap .balaceDetail{position:relative;margin-top: 0.1rem;padding:0 0.26rem;height:0.82rem;line-height: 0.82rem;border-top:1px solid #DADADA;border-bottom:1px solid #DADADA;}
+.userBalanceWrap .balaceDetail.cash-detail{margin: 0;border-top:0 none;}
+.userBalanceWrap .balaceDetail a{display:block;color:#353535;}
+.userBalanceWrap .balaceDetail a:before{margin-right: 0.25rem;content:"";display:inline-block;width:0.3rem;height:0.34rem;background:url('../images/bk-v2/icon-account-paper.png') center center no-repeat;
+    background-size: contain;vertical-align: middle;}
+.userBalanceWrap .balaceDetail a.Withdrawals:before{background:url('../images/bk-v2/icon-account-Withdrawals.png') center center no-repeat;}
+.userBalanceWrap .balaceDetail a:after{content:"";
+    position: absolute;right:0.26rem;
+    display: inline-block;
+    width: 0.16rem;
+    height: 100%;
+    background: url('../images/icon-next.png') center center no-repeat;
+    background-size: contain;
+}
+.userBalanceWrap .recommedPart{display:none;color:#353535;}
+.userBalanceWrap .gainNumsWrap{margin-bottom: 0.22rem;padding:0.32rem 0;border-bottom: 1px solid #DADADA;}
+.userBalanceWrap .gainNumsWrap li{float: left;width:50%;text-align: center;color:#929292;}
+.userBalanceWrap .gainNumsWrap li p:nth-child(2){margin-top: 0.25rem;color:#f7401d;}
+.userBalanceWrap .gainNumsWrap li:nth-child(2){position:relative;}
+.userBalanceWrap .gainNumsWrap li:nth-child(2):before{position:absolute;content:"";display:inline-block;left:0;width:1px;height:100%;border-left: 1px solid #DADADA;}
+.userBalanceWrap .gainNumsWrap li p:nth-child(2) em{font-size: 20px;font-style: normal;;}
+.userBalanceWrap .recommedPart .recommUserList{padding:0 0.26rem;}
+.userBalanceWrap .recommedPart h3{height:0.7rem;line-height: 0.7rem;font-weight: normal;font-size: 15px;}
+.userBalanceWrap .recommUserList li{position:relative;padding:0.22rem 0 0.22rem 0.82rem;border-top: 1px solid #DADADA;font-size: 13px;}
+.userBalanceWrap .recommUserList li:before{content:"";position:absolute;left:0;
+   display: inline-block;
+    width: 0.54rem;
+    height: 0.54rem;
+    background: url('../images/bk-v2/icon-recomm-user.png') center center no-repeat;
+    background-size: contain;
+ }
+ .userBalanceWrap .recommUserList li em{font-style: normal;color:#f7401d;}
+.userBalanceWrap .recommUserList li p{margin-bottom: 0.1rem;}
+.userBalanceWrap .recommedPart .showMore{margin: 0.2rem 0;height:0.8rem;line-height: 0.8rem;background-color: white; border-top: 1px solid #DADADA;border-bottom: 1px solid #DADADA;text-align: center;}
+.userBalanceWrap .recommedPart .showMore a{display:block;color:#353535;}
+
+/*2016-10-28提现管理*/
+.aTabPart{margin-top: 0.2rem;}
+.table-dl a{color:#444444;}
+.sexLine label{margin-left: 0.1rem;}
+.sexLine label:nth-of-type(1){margin-right: 0.2rem;}
+.sexLine label,.sexLine input{vertical-align: middle;}
+.sexLine input{display:inline-block;width:0.3rem;height:0.3rem;}
+.fixedBttToolBar input[type="button"],.fixedBttToolBar a{font-size: 18px;display: inline-block;width: 100%;
+	height: 0.72rem;line-height: 0.72rem;background-color: #009FED;border: 0;border-radius: 4px;color: white;text-align: center;}
+.fixedBttToolBar{margin: 0.4rem 0 0 0;padding:0.2rem 0.3rem;} 
+
+
+.Withdrawals-table .table-dl:nth-of-type(1){margin-top: 0.22rem;}
+.Withdrawals-table{border-top: 1px solid #C1C1C1;}
+.table-dl{background: #fff;border-bottom: 1px solid #C1C1C1;}
+.table-dl dt,.table-dl dd{float: left;font-size: 16px;}
+.table-dl dt{width: 30%;}
+.table-dl dt p,.table-dl dd p{padding-left: 0.3rem;display:inline-block;height:44px;line-height:44px;/* padding: 12px 0 12px 0.3rem; */}
+.table-dl dd{width: 70%;}
+.table-dl dd p{display:block;padding:0 0.3rem;}
+.tips{padding: 12px 0;text-align: center;color: #b1b1b1;font-size: 14px;}
+/* .fixedBttToolBar{margin: 0.14rem 0.3rem;} */
+
+.addBankCardWrap{padding:12px 0;width:100%;font-size: 15px;color:#444444;text-align: center;}
+
+.addBankCardWrap a{margin-right: 0.2rem;position:relative;display:inline-block;height:0.48rem;width:0.48rem;border-radius: 50%;border:1px solid #CFCFCF;vertical-align: middle;}
+.addBankCardWrap a:before,.addBankCardWrap a:after{position:absolute;content:"";display:inline-block;}
+.addBankCardWrap a:before{top:15%;left:50%;margin-left: -1px;height:70%;width:1px;border-left:1px solid #CFCFCF;}
+.addBankCardWrap a:after{top:0;left:15%;height:50%;width:70%;border-bottom: 1px solid #CFCFCF;}
+
+.table-dl dd p.rShowNext{position:relative;
+	padding-right: 0.6rem;text-align: right;font-size: 15px;color:#b1b1b1;}
+.table-dl .selFlag{display:block;}
+.table-dl  dd a.rNext:after, .table-dl .selFlag:after{content: "";
+    display: inline-block;
+    width: 0.16rem;
+    height: 100%;
+    background: url('../images/icon-next.png') center center no-repeat;
+    background-size: contain;vertical-align: middle;}
+.table-dl .selFlag:after{position: absolute;top:0;right: 0.3rem;vertical-align: middle;}
+.table-dl dd a.rNext{float: right;font-size: 15px;color:#CFCFCF;}
+.table-dl dd a.rNext:after{margin-left: 0.1rem;}
+ .selFlag .holderFont{color:#A9A9A9;}
+
+.table-dl dd{position:relative;}
+.table-dl dd .validateImg,.table-dl dd .getCodeBtn,.table-dl dd .minuteLabel{position:absolute;top:6px;right: 0.3rem;width:1.8rem;height:0.66rem}
+.table-dl dd input[type='text'],.table-dl dd input[type='password']{
+    margin-top: 3px;
+    padding-left: 5px;
+    height: 38px;
+    line-height: 38px;
+    border: 0;
+    width: 100%;
+}
+.table-dl dd .getCodeBtn,.table-dl dd .minuteLabel{border-radius: 4px;font-size: 15px;}
+.table-dl dd .getCodeBtn{background-color: #009FEE;color:white;border:1px solid #009FEE;}
+.table-dl dd .minuteLabel{display:inline-block;line-height: 0.66rem;border:1px solid #D3D3D3;background-color: #D3D3D3;text-align: center;color:white;}
+.table-dl dd .minuteLabel em{font-style: normal;color:#ff2400;}
+.table-dl dd input[type='text']:focus,.table-dl dd input[type='password']:focus{outline: 0;}
+.Withdrawals-table .validateDl dd input[type='text'],.Withdrawals-table dl.findPasswdDl dd input[type='text']{width:50%;}
+.table-dl  .cardSel{cursor:pointer;display:block;} 
+.accountFundWrap .table-dl dt{width:35%;}
+.accountFundWrap .table-dl dd{width:65%;}
+.accountFundWrap .table-dl dt input{font-size: 14px;}
+
+.accountFundWrap .table-dl .rSelLine,.accountFundWrap .table-dl .rSelLine .holderFont{color: #CFCFCF;}
+.accountFundWrap .table-dl .rSelLine .holderFont{margin-right: 0.26rem;float:right;}
+.bankCardList{padding:0.26rem 0;position:relative;background-color: white;}
+.bankCardList .aBankCardWrap{display:none;margin:0 auto;width:5.14rem;font-size: 12px;border:1px solid #B2DEF5;background-color: #E4F6FF;border-radius: 6px;line-height: 28px;}
+.bankCardList div.activeABankCardWrap{display:block;}
+.bankCardList .cityWrap{padding:0 0.16rem;}
+.bankCardList .aBankCardWrap dl{width:100%; }
+.bankCardList .aBankCardWrap dt,.bankCardList .aBankCardWrap dd{float:left;box-sizing:border-box;
+-moz-box-sizing:border-box; -webkit-box-sizing:	border-box;}
+.bankCardList .aBankCardWrap dt{width:30%;padding-left: 0.16rem;}
+.bankCardList .aBankCardWrap dd{width:70%;text-align: right;padding-right: 0.16rem;}
+.bankCardList .aBankCardWrap dt:nth-of-type(2),.bankCardList .aBankCardWrap dd:nth-of-type(2){background-color: #B2DEF5;}
+.bankCardList .aBankCardWrap dd:nth-of-type(1){font-size: 10px;}
+.bankCardList .aBankCardWrap dd:nth-of-type(1) small{margin-left: 0.2rem;padding:2px 5px;color:white;background-color:#8FC4E1;}
+.bankCardList .aBankCardWrap dt:nth-of-type(1){font-size: 15px;}
+.bankCardList .aBankCardWrap dd:nth-of-type(2){font-size: 13px;color:#009fee;}
+.bankCardList .aBankCardWrap .delBtn{color:#009fee;}
+.bankCardList .leftArrow,.bankCardList .rightArrow{position:absolute;top:50%;/* margin-top:-0.28rem; */height:0.56rem;width:0.36rem;}
+.bankCardList .leftArrow{left:0.26rem;}
+.bankCardList .rightArrow{right:0.26rem;}
+.bankCardList .leftArrow:before,.bankCardList .rightArrow:after{content:"";display:inline-block;height:100%;width:0.16rem;vertical-align: middle;}
+.bankCardList .leftArrow:before{position:absolute;left:0;background:url('../images/bk-v2/icon-prev.png') left center no-repeat;
+    background-size: contain;}
+.bankCardList .rightArrow:after{position:absolute;right:0;background:url('../images/bk-v2/icon-next.png') right center no-repeat;background-size: contain;}
+
+.tradingPasswdWrap .successIcon img{margin:0.6rem 0 0.4rem 0;width:0.84rem;}
+.tradingPasswdWrap p{text-align: center;font-size: 15px;color:#353535;}
+.authenticationWrap .warmTip,.withdrawWrap .warmTip{margin-top: 0.4rem;padding:0 0.26rem;font-size: 13px;color:#898989;line-height: 20px;}
+.authenticationWrap .successTip{position:relative;font-size:15px;padding:0.6rem 0 0.6rem 2.22rem;}
+.authenticationWrap .successTip:before{position:absolute;left:1.08rem;top:0.6rem;content:"";display:inline-block;height:0.84rem;width:0.84rem;background:url('../images/bk-v2/icon-success.png') right center no-repeat;background-size: contain;}
+
+/*161121 change user's info*/
+.accountInfoTab .aTabPart{margin-top:0;}
+.accountInfoTab h2{padding:0 0.3rem;height:30px;line-height: 30px;font-weight: normal;font-size:14px;color:#8a8a8a;background-color: #F6F6F6;border-bottom: 1px solid #DADADA;}
+.accountInfoTab .iconLine{padding:14px 0;}
+.accountInfoTab .iconLine img{ display: inline-block;width: 50px;height: 50px;border-radius: 100%;}
+.accountInfoTab dl.iconLine p{/* height:66px;line-height: 66px; */position: relative;left:0;width: 100%;}
+.myInfoWrap .editBtn{border-radius: 4px;
+    border: 1px solid white;
+    height: 0.46rem;
+    line-height: 0.46rem;
+    padding: 0 0.2rem;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -0.23rem;}
+.accountInfoTab dl.iconLine .userInfo p{height:24px;line-height: 24px;}
+
+.accountInfoTab .iconLine .editUserIcon{width:auto;}
+.accountInfoTab .iconLine .editUserIcon img{width:44px;height:44px;}
+/* .accountInfoTab .iconLine .editUserIcon img{width:40px;} */
+.accountInfoTab .iconLine .editUserIcon:after{position: absolute;top: 0;right: 0.3rem;margin-left:0.25rem ; content: "";
+    display: inline-block;
+    width: 0.16rem;
+    height: 100%;
+    background: url('../images/icon-next.png') center center no-repeat;
+    background-size: contain;
+    vertical-align: middle;}
+.accountInfoTab .iconLine .iconInput{position:absolute;right:0;width:100%;height:100%;filter:alpha(opacity=0); -moz-opacity:0;-khtml-opacity: 0; opacity: 0; }
+
+.editMyInfoWrap input{font-size: 16px;}
+
+.recomm-rewardDetailWrap{font-size:13px;}
+.recomm-rewardDetailWrap ul{padding:0 0.26rem;background-color: white;}
+.recomm-rewardDetailWrap ul li{padding:0.22rem 0;line-height: 22px;border-bottom: 1px solid #E5E5E5; }
+.recomm-rewardDetailWrap li .priceLine{color:#f7401d;}
+.recomm-rewardDetailWrap li .priceLine span{float:right;}
+
+// 2017 0407 add
+.authenticateDg{display:none;}
+.authenticateDg .fullShadow{position:fixed;top:0;left:0;width:100%;height:100%;z-index:1;filter:alpha(opacity=50); -moz-opacity:0.5;-khtml-opacity: 0.5; opacity: 0.5; background-color:#000000;}
+.authenticateDg .authenticateMainWrap{position:fixed;top:0;left:0;width:100%;height:100%;z-index:2;}
+.authenticateDg .mainInfoWrap{position:absolute;width:80%;left:0;top:0;border-radius: 6px;background-color: white;font-size: 13px;color:#444444;}
+.authenticateDg .mainInfoWrap h4{margin:0 0.2rem;padding:0.34rem 0 0.26rem 0;font-weight: normal;font-size: 13px;border-bottom: 1px solid #C9C9C9;text-align: center;}
+.authenticateDg dl{margin:0 0.2rem 0.4rem 0.2rem;padding:0 0.2rem;}
+.authenticateDg dt{margin:0.28rem 0 0.1rem 0;}
+.authenticateDg dd input{padding-left: 5px;border:1px solid #C9C9C9;height:0.58rem;line-height: 0.58rem;width:99%;}
+.authenticateDg .mainInfoWrap .bottPart{padding-top: 0.1rem;padding-bottom: 0.4rem;}
+.authenticateDg .mainInfoWrap .bottPart .verifyBtn{height:0.6rem;line-height: 0.6rem;color:white;text-align: center; }
+.authenticateDg .mainInfoWrap .bottPart .verifyBtn a{display:inline-block;width:50%;color:white;font-size: 15px;background-color:#009FEE;border-radius: 4px;}
+.authenticateDg .failVefifyResult,.authenticateDg .succVefifyResult{display:none;margin:10px;font-size: 15px;text-align: center;}
+.authenticateDg .failVefifyResult span, .authenticateDg .failVefifyResult span:after{ width:20px; height:2px;background:#f00;}
+.authenticateDg .failVefifyResult span{margin-right: 18px;position:relative;top:0;left:0;display:inline-block; font-size:0; line-height:0;vertical-align:middle;-webkit-transform: rotate(45deg);}
+.authenticateDg .failVefifyResult span:after{content:'.'; display:block;-webkit-transform: rotate(-90deg);}
+.authenticateDg .failVefifyResult span:before{position:absolute;left:-6px;top:-14px;content:"";border-radius: 50%;display:inline-block;height:28px;width:28px;border:1px solid #f00;-webkit-transform: rotate(0deg)}
+.authenticateDg .succVefifyResult span, .authenticateDg .succVefifyResult span:after{background:#009FEE;}
+.authenticateDg .succVefifyResult span{margin-right: 28px;position:relative;top:5px;left:0;display:inline-block;width:10px; height:2px; font-size:0; line-height:0;vertical-align:middle;-webkit-transform: rotate(48deg);}
+.authenticateDg .succVefifyResult span:after{margin-top: -9px;content:''; display:block;width:16px; height:2px;-webkit-transform: rotate(-96deg);}
+.authenticateDg .succVefifyResult span:before{position:absolute;left:-9px;top:-20px;content:"";border-radius: 50%;display:inline-block;height:28px;width:28px;border:1px solid #009FEE;-webkit-transform: rotate(0deg)}

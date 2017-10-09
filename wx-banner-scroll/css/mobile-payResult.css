@@ -1,0 +1,26 @@
+@charset='utf-8';
+ .payResultWrap{font-size: 14px;}
+.payResultWrap .mainWrap{background-color: white;color: #353535;}
+.payResultWrap h2{padding:0.5rem 0.26rem;font-size: 20px;font-weight: normal;text-align: center;border-bottom: 1px solid #E5E5E5;}
+.payResultWrap h2:before{margin-right: 0.4rem;content: "";display: inline-block;width: 1rem;height: 1rem;vertical-align: middle;}
+.payResultWrap .tipWrap{position:relative;z-index:1;margin:.26rem .26rem 0 .26rem;padding:.4rem 0;border-bottom:1px solid #E5E5E5;line-height:22px;border:1px dashed #BABABA}
+.payResultWrap .tipWrap:after,.payResultWrap .tipWrap:before{position:absolute;left:.2rem;z-index:2;content:"";display:inline-block;width:.4rem;height:.2rem;border:1px dashed #BABABA;background-color:#fff}
+.payResultWrap .tipWrap:before{top:-1px; border-radius: 0 0 0.2rem 0.2rem;border-top: 0;}
+.payResultWrap .tipWrap:after{bottom:-1px; border-radius:0.2rem 0.2rem 0 0;border-bottom: 0;}
+.payResultWrap .toolBar a{margin:0.52rem 0.26rem 0  0.26rem;display: block; height: 44px;;line-height: 44px;background-color: #009FEE;text-align: center;color: white;border-radius: 4px;font-size: 16px;}
+.payResultWrap .tipWrap p{position:relative;padding-left:0.7rem;}
+.payResultWrap .tipWrap p:before{position:absolute;top:8px;left:0.36rem;margin-right: 0.2rem;content:"";display:inline-block;width:0.12rem;height:0.12rem;border-radius: 50%;background-color: #BABABA;}
+.payResultWrap .tipWrap p em{font-style: normal;color:#009fee;}
+.failWrap h2{color: #353535;background-color: #F1F1F1;}
+.failWrap h2:before{background: url('../images/bk-v2/pay-fail.png') center center no-repeat;background-size: contain;}
+.successWrap h2{color: white;background-color: #009FEE;}
+.successWrap h2:before{background: url('../images/bk-v2/pay-succ.png') center center no-repeat;background-size: contain;}
+.successWrap h5{padding: 0.25rem 0.26rem 0 0.26rem;margin-bottom: -0.32rem;font-weight: normal;font-size:14px;color:#ff0000;}
+.successWrap .fillTip{padding:0 0.26rem;margin:0.3rem 0 1rem 0;font-size: 13px;line-height: 22px;color:#979797;}
+.successWrap .codeInfoWrap{padding:0.44rem 0.26rem;background-color:#F1F1F1; }
+.successWrap .codeInfoWrap img{margin-right: 0.1rem;width:1.34rem;}
+.successWrap .codeInfoWrap p{font-size:13px;line-height:18px;width:2.8rem;}
+.successWrap .codeInfoWrap img,.successWrap .codeInfoWrap p{display:inline-block;vertical-align: middle;}
+  @media screen and (max-width:320px){
+  	.successWrap .fillTip{margin-bottom: 0.9rem;}
+ }

@@ -1,0 +1,145 @@
+@charset="utf-8";
+.backHeader {
+    position: relative;
+    height: 0.78rem;
+    line-height: 0.78rem;
+    background-color: #009FEE;
+    color: white;
+    font-size: 17px;
+    text-align: center;
+}
+.backHeader a.back {
+    position: absolute;
+    left: 0.26rem;
+    top: 0;
+    z-index: 2;
+    display: inline-block;
+    height: 100%;
+    width: 38px;
+}
+.backHeader a.back:before {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -0.14rem;
+    content: "";
+    display: inline-block;
+    width: 0.18rem;
+    height: 0.28rem;
+    background: url('../images/v2/icon-back.png') center center no-repeat;
+    background-size: contain;
+}
+.insuredStepWrap{margin-bottom: 0.3rem;font-size: 16px;color:#353535;}
+.insuredStepWrap .aPart{background-color: white;margin-top: 0.2rem;border-top:1px solid #DADADA;border-bottom:1px solid #DADADA;}
+.insuredStepWrap .aPart h2{position:relative;height:45px;line-height: 45px;font-weight: normal;font-size:16px;text-align: center;border-bottom:1px solid #DADADA}
+.insuredStepWrap .insuredPersonWrap .aPart h2 a{position:absolute;right:0;width:0.8rem;height:100%;}
+.insuredStepWrap .insuredPersonWrap .aPart h2 a:before{content:"";display:inline-block;
+  width:0.2rem;height:100%;   background: url('../images/V2/icon-close.png') center center no-repeat;
+  background-size: contain;vertical-align: middle;
+}
+.insuredStepWrap .insuredPersonWrap .aPart:first-child h2 a:before{
+   content:"";display:inline-block;
+  width:0.26rem;height:100%;   background: url('../images/V2/icon-up.png') center center no-repeat;
+  background-size: contain;vertical-align: middle;
+}
+.insuredStepWrap .insuredPersonWrap .aPart:first-child h2 a.foldAll:before{
+	transform: rotate(180deg);
+-ms-transform: rotate(180deg);
+-webkit-transform: rotate(180deg);}
+.insuredStepWrap .fieldWrap {margin:0 0 0 0.26rem;}
+.insuredStepWrap .insuredPersonWrap .aPart{border-bottom:0; }
+.insuredStepWrap dl{padding-right: 0.26rem;}
+.insuredStepWrap dl, .insuredStepWrap .addInsuredBtn{border-bottom: 1px solid #DADADA;}
+.insuredStepWrap dt,.insuredStepWrap dd,.insuredStepWrap .fieldWrap .addUsualConnetor,.insuredStepWrap .addInsuredBtn{padding-right: 0.26rem;height:38px;line-height: 38px;}
+.insuredStepWrap dt,.insuredStepWrap dd{padding:4px 0;float:left;vertical-align: middle;}
+.insuredStepWrap dt{width:26%;}
+.insuredStepWrap dd{width:74%;position:relative;}
+.insuredStepWrap input[type='text']{padding-left: 5px;height:38px;line-height: 38px;border:0;width:90%;}
+.insuredStepWrap dl:last-of-type{border-bottom: 0;}
+.insuredStepWrap .insuredPersonWrap dl:last-of-type{border-bottom: 1px solid #DADADA;}
+.insuredStepWrap .fieldWrap .addUsualConnetor{padding-left: 1%;font-size: 12px;border-top:1px solid #DADADA;}
+.insuredStepWrap input[type='text']:focus{outline: 0;}
+.insuredStepWrap .usualConnetor{    position: absolute;
+    right: 0;
+    margin-top: -0.2rem;
+    top: 50%;display:inline-block;width:0.4rem;height:0.4rem;   background: url('../images/V2/icon-my.png') center center no-repeat;background-size: contain;vertical-align: middle;}
+.insuredStepWrap .selFlag{position:relative;padding-left: 5px;width:100%;display:inline-block;color: #CFCFCF;}
+.insuredStepWrap .selFlag:after{position:absolute;right:5px;content: "";
+    display: inline-block;
+    width: 0.16rem;
+    height: 100%;
+    background: url('../images/icon-next.png') center center no-repeat;
+    background-size: contain;
+    vertical-align: middle;
+}
+.insuredStepWrap .radioGroup span{margin:4px 0.22rem 0 0;display:inline-block;width:1.2rem;height:30px;line-height: 30px;text-align: center;border:1px solid #A2A2A2;border-radius: 4px;}
+.insuredStepWrap .radioGroup span.curChecked{position:relative;border:1px solid #009FEE;}
+.insuredStepWrap .radioGroup span.curChecked:after{position:absolute;right:-1px;bottom:0;content:"";
+    display: inline-block;
+    width: 0.32rem;
+    height:0.26rem;
+    background: url('../images/V2/icon-check.png') center center no-repeat;
+    background-size: contain;
+    vertical-align: middle;}
+.insuredStepWrap .addInsuredBtn{background-color: white;text-align: center;color:#009fee;}
+.insuredStepWrap .addInsuredBtn:before{margin-right: 0.2rem;content:""; display:inline-block;width:0.3rem;height:0.3rem;background: url('../images/V2/icon-add.png') center center no-repeat;
+    background-size: contain;
+    vertical-align: middle;}
+    .insuredStepWrap .agreeLine,.insuredStepWrap .toolBar{margin:0 0.26rem;}
+.insuredStepWrap .agreeLine{margin:0.3rem 0.26rem 0.4rem 0.26rem;font-size: 14px;}
+.insuredStepWrap .agreeLine input{margin-right: 0.2rem;vertical-align: middle;}
+.insuredStepWrap .agreeLine em{font-style: normal;display:inline-block;color:#009fee;}
+.insuredStepWrap .toolBar a{font-size: 18px;
+    display: block;
+    width: 100%;
+    height: 0.72rem;
+    line-height: 0.72rem;
+    background-color: #009FEE;
+    border: 0;
+    border-radius: 4px;
+    color: white;
+    text-align: center;}
+
+.ckboxWrapper{
+	position:relative;
+	margin-right: 0.2rem;display:inline-block;width:0.26rem;height:0.26rem;
+    border:1px solid #019FEE;
+}
+.isCkboxWrapper:before{position:absolute;left:50%;top:50%;
+	margin-left: -0.1rem;margin-top: -0.08rem;
+	display:inline-block;width:0.2rem;height:0.16rem;content:"";background: url('../images/V2/icon-chck.png') center center no-repeat;
+    background-size: contain;
+    vertical-align: middle;}
+.ckboxWrapper input{opacity:0;}
+.switchBtns{float:right;position:relative;top:50%;margin-top: -0.22rem;display:inline-block;height:0.44rem;width:0.82rem;border-radius: 0.42rem;border:1px solid #CECECE;box-shadow: 0 0 0 1px #FCFCFC;background-color: #FCFCFC;vertical-align: middle;;}
+.switchBtns label{
+   position: absolute;
+    top: 0;
+    left: 0;
+    width: 0.42rem;
+    height: 0.42rem;
+    -webkit-box-shadow: 0 0 2px #fff;
+    border-radius: 100%;
+    background-color: #fff;
+   
+    -webkit-transform: translate3d(0,0,0);
+    display: inline-block;
+    vertical-align: middle; border: 1px solid #E5E5E5; 
+}
+ span.isSwitchBtn label{-webkit-transform: translate3d(0.4rem,0,0);} 
+ .switchBtns label.transFlag{ -webkit-transition: 300ms linear;}
+span.isSwitchBtn{background-color: #009FEE;border: 1px solid #009FEE; box-shadow: 0 0 0 1px #009FEE;}
+
+.insuredStepWrap .insuredPersonWrap dt{width:34%;}
+.insuredStepWrap .insuredPersonWrap dd{width:66%;}
+.fadeOutLeftBig{-webkit-animation-name:fadeOutLeftBig;animation-name:fadeOutLeftBig}
+@-webkit-keyframes fadeInRightBig{
+  0%{opacity:0;-webkit-transform:translateX(2000px);transform:translateX(2000px)}
+  100%{opacity:1;-webkit-transform:translateX(0);transform:translateX(0)}
+}
+@keyframes fadeInRightBig{
+  0%{opacity:0;-webkit-transform:translateX(2000px);-ms-transform:translateX(2000px);transform:translateX(2000px)}
+100%{opacity:1;-webkit-transform:translateX(0);-ms-transform:translateX(0);transform:translateX(0)}
+}
+.fadeInRightBig{-webkit-animation-name:fadeInRightBig;animation-name:fadeInRightBig;}
+
